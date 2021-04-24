@@ -3,7 +3,8 @@ package pck;
 public class main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Islem islem=new Islem();
+		islem.Print();
 
 	}
 
