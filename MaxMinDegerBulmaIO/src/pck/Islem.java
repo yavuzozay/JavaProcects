@@ -1,10 +1,7 @@
 package pck;
 
-import java.util.ArrayList;
-
-
 public class Islem {
-	//ArrayList<Integer>degerler;
+	
 	int []degerler;
 
 	private int satirSayisi;
@@ -79,13 +76,13 @@ public class Islem {
 	{
 		Esitle();
 		sort(degerler,0,degerler.length-1);
-		System.out.println("Sýralama ;");
+		System.out.println("SÃ½ralama ;");
 		for (int i : degerler) {
 			System.out.println(i);
 		}
 		System.out.println("-------------------------------------");
-		System.out.println("Minumum Deðer : "+minDeger);
-		System.out.println("Maximum Deðer : "+maxDeger);
+		System.out.println("Minumum DeÃ°er : "+minDeger);
+		System.out.println("Maximum DeÃ°er : "+maxDeger);
 		System.out.println("-------------------------------------");
 		
 		
